@@ -2,7 +2,7 @@ import os, sys, json, fontforge
 
 pydir = os.path.abspath(os.path.dirname(__file__))
 
-fontver='1.014'
+fontver='1.015'
 fontname='HuayingMincho'
 tcname='華英明朝'
 scname='华英明朝'
@@ -282,7 +282,7 @@ with open(os.path.join(pydir, 'datas/mulcodechar.txt'), 'r', encoding='utf-8') a
 		litm=line.split('#')[0].strip()
 		if '-' not in litm: continue
 		a=litm.split(' ')[0].split('-')
-		exch.add(a[0].strip())
+		if style=='2': exch.add(a[0].strip())
 		mulch.append((a[0].strip(), a[1].strip()))
 with open(os.path.join(pydir, 'datas/mulcodevar.txt'), 'r', encoding='utf-8') as f:
 	for line in f.readlines():

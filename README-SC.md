@@ -30,6 +30,7 @@
 * [IPAmj明朝](https://moji.or.jp/mojikiban/font/)
 * [霞鹜新致宋](https://github.com/lxgw/LxgwNeoZhiSong)
 * [FontForge](https://github.com/fontforge/fontforge)
+* [FontTools](https://github.com/fonttools/fonttools)
 * [AFDKO](https://github.com/adobe-type-tools/afdko/)
 ## 相关资料
 * [IVD 2017-12-12 Moji_Joho](https://unicode.org/ivd/data/2017-12-12/IVD_Charts_Moji_Joho.pdf)
